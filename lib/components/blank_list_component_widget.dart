@@ -82,9 +82,9 @@ class _BlankListComponentWidgetState extends State<BlankListComponentWidget> {
                 children: [
                   SelectionArea(
                       child: AutoSizeText(
-                    'You can build a custom ChatGPT x FlutterFlow app in a matter of minutes 🤯\n\nTry out the project by typing a response below or clone the project by clicking the button above  🎉',
+                    'Welcome to our Chat AI app! We are excited to have you join our community of users who are exploring the possibilities of artificial intelligence and natural language processing. With our app, you can engage in conversations with our AI chatbot, which has been designed to understand and respond to your queries in a friendly and efficient manner.\n\nWhether you need help with a task, want to have a casual chat, or simply need some company, our Chat AI app is the perfect solution. Our chatbot is always available to chat with you and will keep you entertained with its engaging responses.\n\nWe understand that privacy and security are important to you, and we take that seriously. Our app is built with state-of-the-art security measures to protect your personal information and keep your conversations private.\n\nWe are constantly working to improve our app and add new features, so stay tuned for exciting updates in the future. Thank you for choosing our Chat AI app and we look forward to chatting with you!',
                     style: FlutterFlowTheme.of(context).subtitle1.override(
-                          fontFamily: 'Plus Jakarta Sans',
+                          fontFamily: 'Roboto',
                           color: FlutterFlowTheme.of(context).primaryBtnText,
                           fontSize: 14.0,
                           lineHeight: 1.5,

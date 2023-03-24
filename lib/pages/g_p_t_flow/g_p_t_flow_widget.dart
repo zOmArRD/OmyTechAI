@@ -111,7 +111,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
-                                      width: 157.5,
+                                      width: 139.9,
                                       height: 61.0,
                                       child: Stack(
                                         children: [
@@ -120,7 +120,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                 -0.13, 0.0),
                                             child: Image.asset(
                                               'assets/images/first_black.png',
-                                              width: 130.0,
+                                              width: 135.8,
                                               fit: BoxFit.fitHeight,
                                             ),
                                           ),
@@ -144,7 +144,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle2
                                             .override(
-                                              fontFamily: 'Plus Jakarta Sans',
+                                              fontFamily: 'Open Sans',
                                               color: Colors.white,
                                               fontSize: 14.0,
                                             ),
@@ -312,7 +312,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                                                 r'''$['content']''',
                                                                               ).toString(),
                                                                               style: FlutterFlowTheme.of(context).subtitle1.override(
-                                                                                    fontFamily: 'Plus Jakarta Sans',
+                                                                                    fontFamily: 'Open Sans',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 14.0,
                                                                                     lineHeight: 1.5,
@@ -368,7 +368,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                                             Text(
                                                                               'Copy response',
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                    fontFamily: 'Plus Jakarta Sans',
+                                                                                    fontFamily: 'Open Sans',
                                                                                     color: FlutterFlowTheme.of(context).primary30,
                                                                                     fontSize: 10.0,
                                                                                   ),
@@ -449,8 +449,11 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                                             chatItem,
                                                                             r'''$['content']''',
                                                                           ).toString(),
-                                                                          style:
-                                                                              FlutterFlowTheme.of(context).bodyText1,
+                                                                          style: FlutterFlowTheme.of(context)
+                                                                              .bodyText1
+                                                                              .override(
+                                                                                fontFamily: 'Open Sans',
+                                                                              ),
                                                                         ),
                                                                       ],
                                                                     ),
@@ -515,7 +518,10 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                     decoration: InputDecoration(
                                       hintText: 'Type something...',
                                       hintStyle: FlutterFlowTheme.of(context)
-                                          .bodyText2,
+                                          .bodyText2
+                                          .override(
+                                            fontFamily: 'Open Sans',
+                                          ),
                                       enabledBorder: UnderlineInputBorder(
                                         borderSide: BorderSide(
                                           color: Color(0x00000000),
@@ -557,8 +563,11 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                         ),
                                       ),
                                     ),
-                                    style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Open Sans',
+                                        ),
                                     maxLines: 8,
                                     minLines: 1,
                                     keyboardType: TextInputType.multiline,
